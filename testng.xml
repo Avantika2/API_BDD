@@ -1,0 +1,7 @@
+<suite name="Cucumber Suite">
+    <test name="Cucumber Tests">
+        <classes>
+            <class name="StepDefinations.TestRunner"/>
+        </classes>
+    </test>
+</suite>
