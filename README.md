@@ -15,7 +15,6 @@ Automate the testing of a **Login API** by simulating login requests with differ
 
 ![image](https://github.com/user-attachments/assets/72d05a30-90f1-4dcc-8df8-ea341009ced7)
 
-
 🛠 Technologies Used
 
 ✅ Java
@@ -28,8 +27,6 @@ Automate the testing of a **Login API** by simulating login requests with differ
 
 ✅ RestAssured for API testing
 
-
-
 ▶️ How to Run the Tests
 
 🧰 Prerequisites
@@ -38,11 +35,9 @@ Java 17 or later
 Maven installed
 Internet connection to download dependencies
 
-
 🚀 Run with Maven
 
 mvn clean test
-
 
 📊 Reporting
 
