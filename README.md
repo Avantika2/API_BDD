@@ -12,6 +12,7 @@ This project is a simple Java-based API test automation framework that verifies 
 Automate the testing of a **Login API** by simulating login requests with different credentials and validating the response status codes.
 
 📂 Project Structure
+
 LoginApiTestProject/
 │
 ├── src/
@@ -30,6 +31,7 @@ LoginApiTestProject/
 └── README.md                               # 📘 Project overview (this file)
 
 🛠 Technologies Used
+
 ✅ Java
 
 ✅ Maven
@@ -41,20 +43,26 @@ LoginApiTestProject/
 ✅ RestAssured for API testing
 
 ▶️ How to Run the Tests
+
 🧰 Prerequisites
+
 Java 17 or later
 Maven installed
 Internet connection to download dependencies
 
 🚀 Run with Maven
+
 mvn clean test
 
 📊 Reporting
+
 ✅ TestNG Reports
 TestNG automatically generates reports under:
 target/surefire-reports/
 
 📥 Sample Responses
+
 Username	Password	Status	Meaning
+
 Avan	    Password	 200    ✅Login success
 Avan123	  Passwordd	 401    ❌Login failed
