@@ -13,22 +13,8 @@ Automate the testing of a **Login API** by simulating login requests with differ
 
 📂 Project Structure
 
-LoginApiTestProject/
-│
-├── src/
-│   └── test/
-│       └── java/
-│           ├── FeatureFiles/
-│           │   └── Feature.feature         # 💡 Cucumber feature file with scenarios
-│           │
-│           └── StepDefinations/
-│               ├── ApiUtils.java           # 🔧 Utility class for API setup and requests
-│               ├── LoginTest.java          # 📋 Step definitions mapped to Gherkin steps
-│               └── TestRunner.java         # 🚦 Cucumber TestNG runner class
-│
-├── testng.xml                              # 🧪 TestNG configuration file
-├── pom.xml                                 # ⚙️ Maven dependencies and build config
-└── README.md                               # 📘 Project overview (this file)
+![image](https://github.com/user-attachments/assets/72d05a30-90f1-4dcc-8df8-ea341009ced7)
+
 
 🛠 Technologies Used
 
@@ -57,12 +43,12 @@ mvn clean test
 📊 Reporting
 
 ✅ TestNG Reports
+
 TestNG automatically generates reports under:
+
 target/surefire-reports/
 
 📥 Sample Responses
 
-Username	Password	Status	Meaning
+![image](https://github.com/user-attachments/assets/9e9b7e0e-755d-4080-a941-8568b7dd8958)
 
-Avan	    Password	 200    ✅Login success
-Avan123	  Passwordd	 401    ❌Login failed
