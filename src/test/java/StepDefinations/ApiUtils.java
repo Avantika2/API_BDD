@@ -8,6 +8,7 @@ public class ApiUtils {
     public static void setBaseURI(String uri) {
         RestAssured.baseURI = uri;
         //comment
+        //another comment
     }
 
     public static Response login(String username, String password) {
